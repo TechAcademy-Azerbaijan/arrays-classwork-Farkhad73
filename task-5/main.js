@@ -4,6 +4,9 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-    // Write code here
+   let arr = ['1', '2', '3', '4']
+arr.pop('4')
+arr.unshift('4')
+console.log(arr)
   
 });
